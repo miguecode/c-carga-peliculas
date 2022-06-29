@@ -1,0 +1,10 @@
+10:47:27 **** Incremental Build of configuration Debug for project Gil.Miguel.P2.Lab1.1A ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Gil.Miguel.P2.Lab1.1A.o" "..\\src\\Gil.Miguel.P2.Lab1.1A.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Movie.o" "..\\src\\Movie.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Validaciones.o" "..\\src\\Validaciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -o Gil.Miguel.P2.Lab1.1A.exe "src\\Controller.o" "src\\Gil.Miguel.P2.Lab1.1A.o" "src\\LinkedList.o" "src\\Menu.o" "src\\Movie.o" "src\\Parser.o" "src\\Validaciones.o" 
+
+10:47:29 Build Finished. 0 errors, 0 warnings. (took 1s.704ms)
+

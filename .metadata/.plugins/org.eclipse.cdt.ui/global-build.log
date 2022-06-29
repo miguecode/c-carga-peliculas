@@ -1,0 +1,80 @@
+10:06:01 **** Incremental Build of configuration Debug for project Gil.Miguel.P2.Lab1.1A ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Validaciones.o" "..\\src\\Validaciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parser.o" "..\\src\\Parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LinkedList.o" "..\\src\\LinkedList.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Gil.Miguel.P2.Lab1.1A.o" "..\\src\\Gil.Miguel.P2.Lab1.1A.c" 
+..\src\Gil.Miguel.P2.Lab1.1A.c: In function 'main':
+..\src\Gil.Miguel.P2.Lab1.1A.c:53:13: warning: implicit declaration of function 'controller_getPath' [-Wimplicit-function-declaration]
+   53 |    }else if(controller_getPath(path) && controller_loadFromText(path, listaPeliculas))
+      |             ^~~~~~~~~~~~~~~~~~
+..\src\Gil.Miguel.P2.Lab1.1A.c:53:41: warning: implicit declaration of function 'controller_loadFromText' [-Wimplicit-function-declaration]
+   53 |    }else if(controller_getPath(path) && controller_loadFromText(path, listaPeliculas))
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~
+..\src\Gil.Miguel.P2.Lab1.1A.c:60:4: warning: implicit declaration of function 'controller_ListMovie' [-Wimplicit-function-declaration]
+   60 |    controller_ListMovie(listaPeliculas);
+      |    ^~~~~~~~~~~~~~~~~~~~
+..\src\Gil.Miguel.P2.Lab1.1A.c:90:4: warning: implicit declaration of function 'controller_filter' [-Wimplicit-function-declaration]
+   90 |    controller_filter(listaPeliculas);
+      |    ^~~~~~~~~~~~~~~~~
+..\src\Gil.Miguel.P2.Lab1.1A.c:112:5: warning: implicit declaration of function 'controller_saveAsText' [-Wimplicit-function-declaration]
+  112 |     controller_saveAsText(path , listaPeliculasNueva);
+      |     ^~~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Menu.o" "..\\src\\Menu.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Movie.o" "..\\src\\Movie.c" 
+gcc -o Gil.Miguel.P2.Lab1.1A.exe "src\\Controller.o" "src\\Gil.Miguel.P2.Lab1.1A.o" "src\\LinkedList.o" "src\\Menu.o" "src\\Movie.o" "src\\Parser.o" "src\\Validaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\Gil.Miguel.P2.Lab1.1A.o: in function `main':
+C:\Users\JUNMI\Desktop\Gil.Miguel.P2.Lab1.1A\Gil.Miguel.P2.Lab1.1A\Debug/../src/Gil.Miguel.P2.Lab1.1A.c:53: undefined reference to `controller_getPath'
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: C:\Users\JUNMI\Desktop\Gil.Miguel.P2.Lab1.1A\Gil.Miguel.P2.Lab1.1A\Debug/../src/Gil.Miguel.P2.Lab1.1A.c:53: undefined reference to `controller_loadFromText'
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: C:\Users\JUNMI\Desktop\Gil.Miguel.P2.Lab1.1A\Gil.Miguel.P2.Lab1.1A\Debug/../src/Gil.Miguel.P2.Lab1.1A.c:60: undefined reference to `controller_ListMovie'
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: C:\Users\JUNMI\Desktop\Gil.Miguel.P2.Lab1.1A\Gil.Miguel.P2.Lab1.1A\Debug/../src/Gil.Miguel.P2.Lab1.1A.c:70: undefined reference to `controller_ListMovie'
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: C:\Users\JUNMI\Desktop\Gil.Miguel.P2.Lab1.1A\Gil.Miguel.P2.Lab1.1A\Debug/../src/Gil.Miguel.P2.Lab1.1A.c:83: undefined reference to `controller_ListMovie'
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: C:\Users\JUNMI\Desktop\Gil.Miguel.P2.Lab1.1A\Gil.Miguel.P2.Lab1.1A\Debug/../src/Gil.Miguel.P2.Lab1.1A.c:90: undefined reference to `controller_filter'
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: C:\Users\JUNMI\Desktop\Gil.Miguel.P2.Lab1.1A\Gil.Miguel.P2.Lab1.1A\Debug/../src/Gil.Miguel.P2.Lab1.1A.c:97: undefined reference to `controller_ListMovie'
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: C:\Users\JUNMI\Desktop\Gil.Miguel.P2.Lab1.1A\Gil.Miguel.P2.Lab1.1A\Debug/../src/Gil.Miguel.P2.Lab1.1A.c:110: undefined reference to `controller_getPath'
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: C:\Users\JUNMI\Desktop\Gil.Miguel.P2.Lab1.1A\Gil.Miguel.P2.Lab1.1A\Debug/../src/Gil.Miguel.P2.Lab1.1A.c:112: undefined reference to `controller_saveAsText'
+collect2.exe: error: ld returned 1 exit status
+10:15:13 **** Incremental Build of configuration Debug for project Gil.Miguel.P2.Lab1.1A ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Menu.o" "..\\src\\Menu.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Gil.Miguel.P2.Lab1.1A.o" "..\\src\\Gil.Miguel.P2.Lab1.1A.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parser.o" "..\\src\\Parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LinkedList.o" "..\\src\\LinkedList.c" 
+..\src\LinkedList.c: In function 'll_map':
+..\src\LinkedList.c:578:13: warning: implicit declaration of function 'clone'; did you mean 'pclose'? [-Wimplicit-function-declaration]
+  578 |   mapList = clone(this);
+      |             ^~~~~
+      |             pclose
+..\src\LinkedList.c:578:11: warning: assignment to 'LinkedList *' {aka 'struct LinkedList *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  578 |   mapList = clone(this);
+      |           ^
+gcc -o Gil.Miguel.P2.Lab1.1A.exe "src\\Controller.o" "src\\Gil.Miguel.P2.Lab1.1A.o" "src\\LinkedList.o" "src\\Menu.o" "src\\Movie.o" "src\\Parser.o" "src\\Validaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\LinkedList.o: in function `ll_map':
+C:\Users\JUNMI\Desktop\Gil.Miguel.P2.Lab1.1A\Gil.Miguel.P2.Lab1.1A\Debug/../src/LinkedList.c:578: undefined reference to `clone'
+collect2.exe: error: ld returned 1 exit status
+10:15:24 **** Incremental Build of configuration Debug for project Gil.Miguel.P2.Lab1.1A ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LinkedList.o" "..\\src\\LinkedList.c" 
+gcc -o Gil.Miguel.P2.Lab1.1A.exe "src\\Controller.o" "src\\Gil.Miguel.P2.Lab1.1A.o" "src\\LinkedList.o" "src\\Menu.o" "src\\Movie.o" "src\\Parser.o" "src\\Validaciones.o" 
+10:31:02 **** Incremental Build of configuration Debug for project Gil.Miguel.P2.Lab1.1A ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Menu.o" "..\\src\\Menu.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Gil.Miguel.P2.Lab1.1A.o" "..\\src\\Gil.Miguel.P2.Lab1.1A.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Movie.o" "..\\src\\Movie.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parser.o" "..\\src\\Parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Validaciones.o" "..\\src\\Validaciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LinkedList.o" "..\\src\\LinkedList.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -o Gil.Miguel.P2.Lab1.1A.exe "src\\Controller.o" "src\\Gil.Miguel.P2.Lab1.1A.o" "src\\LinkedList.o" "src\\Menu.o" "src\\Movie.o" "src\\Parser.o" "src\\Validaciones.o" 
+10:33:48 **** Incremental Build of configuration Debug for project Gil.Miguel.P2.Lab1.1A ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Gil.Miguel.P2.Lab1.1A.o" "..\\src\\Gil.Miguel.P2.Lab1.1A.c" 
+gcc -o Gil.Miguel.P2.Lab1.1A.exe "src\\Controller.o" "src\\Gil.Miguel.P2.Lab1.1A.o" "src\\LinkedList.o" "src\\Menu.o" "src\\Movie.o" "src\\Parser.o" "src\\Validaciones.o" 
+10:47:27 **** Incremental Build of configuration Debug for project Gil.Miguel.P2.Lab1.1A ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Gil.Miguel.P2.Lab1.1A.o" "..\\src\\Gil.Miguel.P2.Lab1.1A.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Movie.o" "..\\src\\Movie.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Validaciones.o" "..\\src\\Validaciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Controller.o" "..\\src\\Controller.c" 
+gcc -o Gil.Miguel.P2.Lab1.1A.exe "src\\Controller.o" "src\\Gil.Miguel.P2.Lab1.1A.o" "src\\LinkedList.o" "src\\Menu.o" "src\\Movie.o" "src\\Parser.o" "src\\Validaciones.o" 
