@@ -10,10 +10,10 @@ int menu(LinkedList *pArrayListMovie)
 {
 	int todoOk = 0;
 	int opcion;
-	int cant = ll_len(pArrayListMovie);
+	int cantidadPeliculas = ll_len(pArrayListMovie);
 
   printf("|=====================================================|\n");
-  printf("|         *****  ABM PELICULAS - MENU  *****          |\n");
+  printf("|         *****  CARGA PELICULAS - MENU  *****        |\n");
   printf("|=====================================================|\n");
   printf("|                 Ingrese una opcion                  |\n");
   printf("|=====================================================|\n");
@@ -23,10 +23,11 @@ int menu(LinkedList *pArrayListMovie)
   printf("|  4  | Asignar generos aleatoriamente                |\n");
   printf("|  5  | Crear una lista por genero                    |\n");
   printf("|  6  | Ordenar peliculas                             |\n");
-  printf("|  7  | Guardar peliculas [Cantidad actual: %d]       |\n", cant);
+  printf("|  7  | Guardar peliculas                             |\n");
   printf("|=====================================================|\n");
   printf("|  0  | Salir                                         |\n");
   printf("|=====================================================|\n\n");
+  printf("[Cantidad de peliculas cargadas: %d]\n", cantidadPeliculas);
   printf("[>] Ingrese opcion: ");
 	
 	fflush(stdin);
