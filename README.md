@@ -1,4 +1,4 @@
-# 🍿 Carga Películas - Aplicación de Consola en 
+# 🍿 Carga Películas - Aplicación de Consola en C
 
 Este proyecto es una aplicación de consola, fue hecho en 2022 y se trata de un Menú cuyas funcionalidades esenciales trabajan con la manipulación (load and save) de archivos de texto, y el uso de la LinkedList de C. En este caso, con un listado de películas.
 
