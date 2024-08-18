@@ -115,7 +115,7 @@ int main()
 			}
 
 			break;
-		case 8:
+		case 0:
 			if (flagGuardarTxt == 1)
 			{
 				confirmarSalidaMenu(&salirMenu);
@@ -127,7 +127,7 @@ int main()
 			break;
 
 		default:
-			printf("Opcion incorrecta (debe ser un numero del 1 al 8) \n\n");
+			printf("Opcion incorrecta (debe ser un numero del 1 al 7) \n\n");
 		}
 		system("pause");
 		system("cls");
