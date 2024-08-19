@@ -49,5 +49,6 @@ Para ejecutar este proyecto, hay que seguir estos pasos:
  
   <img src="https://github.com/user-attachments/assets/3c5c3683-7e50-4f39-a5a4-420cd6621083" width="700"/>
 
+- Al igual que otros de mis proyectos en C, seguramente la aplicación tiene errores de funcionalidad dependiendo de cómo se manipulen los archivos que persisten los datos.
 - Fue creado en 2022, mientras cursaba la carrera de Tecnicatura Universitaria en Programación, en la Universidad Tecnológica Nacional.
 - No se aceptan contribuciones ni está bajo ninguna licencia específica.
