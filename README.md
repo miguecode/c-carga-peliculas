@@ -54,6 +54,6 @@ Para ejecutar este proyecto, hay que seguir estos pasos:
 - No se aceptan contribuciones ni está bajo ninguna licencia específica.
 
 ## 🗃️ Otros proyectos similares
-- [ABM de Pasajeros - Aplicación de consola en C](https://github.com/Leumig/C-ABM-Pasajeros)
-- [ABM de Notebooks - Aplicación de consola en C](https://github.com/Leumig/C-ABM-Notebooks)
-- [Calcular Costos - Aplicación de consola en C](https://github.com/Leumig/C-Calcular-Costos)
+- [ABM de Pasajeros - Aplicación de consola en C](https://github.com/Leumig/c-abm-pasajeros)
+- [ABM de Notebooks - Aplicación de consola en C](https://github.com/Leumig/c-abm-notebooks)
+- [Calcular Costos - Aplicación de consola en C](https://github.com/Leumig/c-calcular-costos)
