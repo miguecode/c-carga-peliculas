@@ -10,7 +10,7 @@ Carga Películas es una aplicación de consola que permite cargar un listado de 
 
 Así se ve la pantalla principal al iniciar el programa.
 
-<img src="https://github.com/user-attachments/assets/396b4f7d-4d55-4364-a4f4-dead583e8420" width="450"/>
+<img src="https://github.com/user-attachments/assets/396b4f7d-4d55-4364-a4f4-dead583e8420" width="455"/>
 
 ## 🛠️ Funcionalidades
 
