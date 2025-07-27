@@ -51,7 +51,7 @@ Para ejecutar este proyecto, hay que seguir estos pasos:
 
 - Al igual que otros de mis proyectos en C, seguramente la aplicación tiene errores de funcionalidad dependiendo de cómo se manipulen los archivos que persisten los datos.
 - Fue creado en 2022, mientras cursaba la carrera de Tecnicatura Universitaria en Programación, en la Universidad Tecnológica Nacional.
-- No se aceptan contribuciones ni está bajo ninguna licencia específica
+- No se aceptan contribuciones ni está bajo ninguna licencia específica.
 
 ## 🗃️ Otros proyectos similares
 - [ABM de Pasajeros - Aplicación de consola en C](https://github.com/miguecode/c-abm-pasajeros)
